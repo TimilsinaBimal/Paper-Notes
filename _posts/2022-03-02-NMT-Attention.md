@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Neural Machine Translation by Jointly Learning to Align and Translate"
-tags: [Attention Mechanism, NLP, Recurrent Neural Networks]
+tags: ["Attention Mechanism", NLP, "Recurrent Neural Networks"]
 math: true
 author: "Bimal Timilsina"
 ---
 
-Authors: Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio
+**Authors**: `Dzmitry Bahdanau`, `Kyunghyun Cho`, `Yoshua Bengio`
 
 ### WHAT?
 
