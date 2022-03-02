@@ -1,1 +1,2 @@
 # Paper-Notes
+1. [Neural_Machine_Translation_by_Jointly_Learning_to_Align_and_Translate](./Neural_Machine_Translation_by_Jointly_Learning_to_Align_and_Translate.md)
