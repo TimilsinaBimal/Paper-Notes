@@ -1,22 +1,12 @@
 ---
 layout: post
 title: "Neural Machine Translation by Jointly Learning to Align and Translate"
-categories: misc
 tags: [Attention Mechanism, NLP, Recurrent Neural Networks]
 math: true
+author: "Bimal Timilsina"
 ---
 
 Authors: Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio
-
-Comments: ICLR 2015
-
-Date: March 2, 2022
-
-File: files/NMT_attention.pdf
-
-Link: https://arxiv.org/abs/1409.0473
-
-Tags: Attention Mechanism, NLP, Recurrent Neural Networks
 
 ### WHAT?
 
@@ -28,7 +18,7 @@ The fixed-sized context vector used in encoder-decoder architecture cannot encod
 
 ### HOW?
 
-![Untitled](./files/Untitled.png)
+![Untitled](/assets/Untitled.png){:class="img-responsive"}
 
 - Using  all hidden states as input to calculate context vectors
 - Calculating context vector based on the alignment scores, which gives information about how much similar the source word is to the previous output of the decoder
@@ -67,4 +57,4 @@ The fixed-sized context vector used in encoder-decoder architecture cannot encod
 - Authors have use Bi-directional LSTMs to train all the models
 - On training two models each of  attention architecture and encoder-decoder architecture, for 30 and 50 words long sequences both models with attention architecture performed better.
 
-![Untitled](./files/Untitled%201.png)
+![Untitled](/assets/Untitled%201.png){:class="img-responsive"}
